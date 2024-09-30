@@ -1,0 +1,153 @@
+<!-- Pagina com html semântico, exemplo de um site que oferece vagas de emprego-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs for You</title>
+    <link rel="shortcut icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/4366/4366868.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container-header{
+            display: flex;
+            background-color: aliceblue;
+            padding: 20px;
+            color: black;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .container-header > img{
+            width: 100px;
+        }
+
+        h1{
+            font-size: xx-large;
+        }
+        h2{
+            font-size: small;
+        }
+        
+        h1,h2{
+            font-family: "playfair display", sans-serif;
+        }
+        p, li{
+            font-family: "roboto", sans-serif;
+            font-style: normal;
+        }
+
+        nav{
+            padding: 20px;
+            background-color: #0178fa;
+        }
+
+        .container-nav{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 10px;
+        }
+
+        .container-sobre{
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+
+        }
+
+        .container-diferencial{
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+
+        }
+
+        .container-diferencial img{
+            width: 600px;
+        }
+
+        .container-footer{
+            background-color: rgb(54, 54, 54);
+            padding: 50px;
+            color: aliceblue;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <img src="https://cdn-icons-png.flaticon.com/512/4366/4366868.png" alt="Jobs for You">
+            <div id="titulo-subtitulo">
+                <h1>Jobs for You</h1>
+                <h2>Porque cada talento merece o lugar certo</h2>
+            </div>
+     
+        </div>
+
+            <nav>
+                <ul class="container-nav">
+                    <li>HOME</li>
+                    <li>BUSCAR VAGAS</li>
+                    <li>PARA EMPRESAS</li>
+                    <li>SOBRE NÓS</li>
+                    <li>BLOG</li>
+                    <li>ÁREA DO CANDIDATO</li>
+                    <li>SUPORTE</li>
+                </ul> 
+            </nav>
+        
+    </header>
+    <main>
+        <section>
+            <div class="container-sobre">
+                <video controls autoplay loop src="https://videos.pexels.com/video-files/4426379/4426379-uhd_2560_1440_25fps.mp4" width="600px" height="400px" >
+            
+                </video>
+                <p id="primero-topico">
+                    Jobs For You é uma plataforma inovadora, projetada para <strong> transformar </strong> a maneira como candidatos encontram oportunidades de emprego. Acreditamos que cada pessoa tem um talento único, e nossa missão é conectar esses talentos com as melhores vagas disponíveis no mercado. Nosso sistema de busca intuitivo e altamente personalizado permite que você encontre rapidamente vagas que correspondam ao seu perfil, interesses e metas profissionais. <br>
+                    <br>
+                    Oferecemos oportunidades em uma ampla gama de áreas, desde tecnologia e marketing até engenharia, design, e muito mais. Nosso objetivo é facilitar a jornada de quem busca seu próximo desafio profissional, oferecendo uma experiência de navegação simples e objetiva, mas poderosa o suficiente para fornecer resultados relevantes e precisos. <br>
+                    <br>
+                
+                </p>
+
+            </div>
+            
+        </section>
+
+        <section>
+           <div class="container-diferencial">
+            <p>
+                O Jobs For You também se diferencia por oferecer recursos adicionais, como alertas de vagas, dicas de carreira e ferramentas que ajudam tanto candidatos quanto empresas a otimizar o processo de recrutamento. Para nós, não se trata apenas de conectar empresas e candidatos, mas de proporcionar uma experiência de contratação eficiente, acessível e, acima de tudo, alinhada às suas necessidades e ambições. <br>
+                <br>
+                Seja você um profissional em busca de seu primeiro emprego ou alguém com experiência em transição de carreira, estamos aqui para tornar esse processo mais simples e mais humano, garantindo que você encontre o emprego dos seus sonhos de forma rápida, fácil e com total confiança. <br>
+            </p>
+
+            <figure>
+                <img src="https://images.unsplash.com/photo-1629904869392-ae2a682d4d01?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="pessoas trabalhando no computador">
+                <figcaption>Grupo de pessoas trabalhando no computador</figcaption>
+            </figure>
+           </div>
+        </section>
+    </main>
+    <footer class="container-footer">
+        <p>Jobs for You © 2024 - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
