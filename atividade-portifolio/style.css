@@ -1,0 +1,82 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1,li,p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.container-header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+    padding: 2%;
+}
+
+.links{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    height: 2%;
+}
+
+.links > img{
+    width: 50px;
+}
+
+
+.bio{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.sobre{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    
+    padding: 4%;
+    gap: 4%;
+}
+
+.habilidades{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 4%;
+}
+
+.habilidades img{
+    width: 100px;
+}
+
+.lista-habilidades{
+    display: flex;
+    flex-flow: row nowrap;
+    color: antiquewhite;
+    list-style: none;
+    text-align: center;
+    gap: 5%;
+    padding: 2%;
+}
+
+
+.container-footer{
+    border: 1px solid gray;
+    color: aliceblue;
+    text-align: center;
+    padding: 2%;
+}
